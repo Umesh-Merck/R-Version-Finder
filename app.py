@@ -207,7 +207,7 @@ for idx, msg in enumerate(st.session_state.messages):
             # Display dataframe with custom styling
             col1, col2 = st.columns([3, 1])
             with col1:
-                st.dataframe(msg["data"], width='stretch', hide_index=True)
+                st.dataframe(msg["data"], use_container_width=True, hide_index=True)
             
             with col2:
                 st.download_button(
