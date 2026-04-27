@@ -190,7 +190,7 @@ packages_dict = parse_packages_file(data)
 st.session_state.packages_dict = packages_dict
 
 # ===================== HEADER =====================
-st.markdown('<div class="title">� R Package Finder</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">R Package Finder</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Chat-style interface for CRAN package lookup</div>', unsafe_allow_html=True)
 st.divider()
 
